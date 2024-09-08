@@ -1,0 +1,8 @@
+
+     TEST C => {"event": "pusher:subscribe", "data": {"channel": "test-c"}}'
+
+     MESSEAGE UNREAD COUNT => {"event": "pusher:subscribe", "data": {"channel": "get-unread-message-count-channel.15"}}
+
+     LATEST MESSSAGE => {"event": "pusher:subscribe", "data": {"channel":"get-latest-message-between-users-channel.{user_id}"}}
+
+     LATEST CHAT LIST => {"event": "pusher:subscribe", "data": {"channel":"get-latest-message-in-chat-channel"}}
